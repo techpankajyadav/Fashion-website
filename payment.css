@@ -1,0 +1,66 @@
+/* Style for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Style for the checkout container */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style for the product information section */
+div > div {
+    margin-bottom: 20px;
+}
+
+/* Style for headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Style for the product details */
+h2 + p {
+    color: #666;
+}
+
+/* Style for the payment method selection section */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Style for radio buttons and labels */
+label {
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    
+}
+
+/* Style for the submit button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#Payment-button{
+    border:1px black solid;
+    width:149px;
+    text-decoration:none;
+    background-color:rgb(59, 231, 59);
+    color:black;
+    border-radius:2px;
+}

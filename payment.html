@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website - Checkout</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- Include your stylesheets and other dependencies here -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<div>
+    <h1>Checkout</h1>
+
+   
+    <!-- Payment Method Selection -->
+    <div>
+        <h2>Select Payment Method</h2>
+        <form action="/process_payment" method="post">
+            <label for="credit-card">
+                <input type="radio" id="credit-card" name="payment-method" value="credit-card" required>
+                Credit Card
+            </label>
+
+            <label for="Debite Card">
+                <input type="radio" id="Debite Card" name="payment-method" value="paypal" required>
+                Debit Card
+            </label>
+            <label for="Google Pay">
+                <input type="radio" id="Google Pay" name="payment-method" value="paypal" required>
+                Google Pay
+            </label>
+            <label for="Phone Pay">
+                <input type="radio" id="Phone Pay" name="payment-method" value="paypal" required>
+               Phone pay
+            </label>
+            <label for="UPI">
+                <input type="radio" id="UPI" name="payment-method" value="paypal" required>
+                UPI
+            </label>
+            <label for="Cash On Delivery">
+                <input type="radio" id="Cash On Delivery" name="payment-method" value="stripe" required>
+               Cash On Delivery
+            </label>
+
+            <!-- Add more payment methods as needed -->
+
+           <a href="index.html" id="Payment-button">Proceed to Payment</a> 
+        </form>
+    </div>
+</div></main>
+<footer>
+    <div class="footer-links">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </div>
+    <div class="footer-contact">
+        <ul>
+            <li><a href="mailto:info@Lovelyfashion.com">info@lovelyfashion.com</a></li>
+            <li><a href="tel:+1234567890">+1234567890</a></li>
+        </ul>
+    </div>
+    <div class="footer-social">
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Pinterest</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- Include additional scripts and styles as needed -->
+
+</body>
+</html>
